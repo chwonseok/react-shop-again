@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.jumbo {
+  position: relative;
+  width: 100%;
+}
+
+.jumbo-overlay {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0;
+  top: 0;
+
+  background-image: url('../img/jumbotron.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+
+  z-index: 1;
+}
+
+.jumbo-main {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+
+  text-align: center;
+  padding-top: 200px;
+  color: #000;
+
+  z-index: 2;
+}
+
+.jumbo-main h2 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.jumbo-main p {
+  font-size: 30px;
+}
