@@ -5,12 +5,13 @@
 .jumbo {
   position: relative;
   width: 100%;
+  height: 500px;
 }
 
 .jumbo-overlay {
   position: absolute;
   width: 100%;
-  height: 500px;
+  height: 100%;
   left: 0;
   top: 0;
 

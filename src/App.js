@@ -1,3 +1,4 @@
+import Items from './components/Items';
 import Jumbotron from './components/Jumbotron';
 import Nav from './components/Nav';
 import './index.css';
@@ -8,6 +9,7 @@ function App() {
       <div className="container">
         <Nav />
         <Jumbotron />
+        <Items />
       </div>
     </div>
   );
